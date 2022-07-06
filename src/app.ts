@@ -1,14 +1,15 @@
+import { attachControllers } from "@decorators/express";
 import express = require("express");
 export const app = express();
 
-import { OnePieceController, GurrenController} from "."
+import { OnePieceController, GurrenController, itemController, } from "."
 
-const routeOnePiece = new OnePieceController
-const routerGurren = new GurrenController
+attachControllers(app, [GurrenController, OnePieceController, itemController]);
 
-app.use('/onepiece',routeOnePiece.router);
-app.use('/gurren',routerGurren.router);
 
+app.get('/', function (req, res) {
+  res.send('Teste');
+});
 
 app.use((req, res, next) => {
   const erro = new Error("Não encontrado");
