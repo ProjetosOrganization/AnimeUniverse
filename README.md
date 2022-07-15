@@ -1,8 +1,6 @@
 
 # Projeto-Anime Universe
 
-## Sobre o Projeto
-
 Esse projeto foi feito para aprimorar nossas habilidades de programação em desenvolvimento Front End e Back-End.
 
 
