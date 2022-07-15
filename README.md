@@ -11,10 +11,7 @@ Esse projeto foi feito para aprimorar nossas habilidades de programação em des
 - NodeJs - API 
 - MySQL -  Gerenciamento do banco de dados
 
- <img style="border-radius: 20px ;" src="https://user-images.githubusercontent.com/78982351/179135526-9ee4d873-1633-4631-b3d4-2259ca848b73.png" alt="">
-
-
-
+ <img src="https://user-images.githubusercontent.com/78982351/179135526-9ee4d873-1633-4631-b3d4-2259ca848b73.png" alt="">
 
 ## Instalação
 
