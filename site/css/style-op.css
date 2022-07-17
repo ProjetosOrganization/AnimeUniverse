@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'One Piece Manga';
-    src: url(/css/fonts/one\ piece\ font.ttf);
+    src: url(fonts/one\ piece\ font.ttf);
 }
 
 
@@ -12,7 +12,7 @@
 
 .banner-op {
 
-    background-image: url(/imgs/banner-op.jpg);
+    background-image: url(../imgs/banner-op.jpg);
     background-size: cover;
     height: 800px;
     background-attachment: fixed;
@@ -72,7 +72,7 @@
    
    .banner-op2 {
    
-       background-image: url(/imgs/conteudo-op.jpg);
+       background-image: url(../imgs/conteudo-op.jpg);
        background-size: cover;
        background-attachment: fixed;
        background-position: center;
@@ -106,3 +106,9 @@
    
       }
    
+      .img-home-d img{
+
+        border-radius: 20px;
+        width: 500px;
+        height: 300px;
+      }

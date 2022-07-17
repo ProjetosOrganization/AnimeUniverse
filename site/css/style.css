@@ -130,7 +130,7 @@ margin-left: 10px;
 
 .banner-AU{
 
-background-image: url(/imgs/ANIMU.jpg);
+background-image: url(../imgs/ANIMU.jpg);
  background-size: cover;
  height: 700px;
  background-attachment: fixed;
@@ -198,19 +198,62 @@ font-size: 50px;
 
 
     border-radius: 20px;
-    width: 600px;
+    width: 500px;
+    height: 220px;
     
     }
 
 .part1{
-background-image: url(../Imgs/merry.png);
-background-size: 100%;
+background-image: url(../Imgs/sagas/eastblue.jpg);
+background-size: cover;
 }
+
+.part2{
+background-image: url(../Imgs/sagas/alabasta2.jpg);
+background-size: cover;
+}
+
+.part3{
+background-image: url(../Imgs/sagas/sky2.avif);
+background-size: cover;
+}
+
+.part4{
+background-image: url(../Imgs/sagas/Water7a.webp);
+background-size: cover;
+}
+.part5{
+background-image: url(../Imgs/sagas/triler3.webp);
+background-size: cover;
+}
+.part6{
+background-image: url(../Imgs/sagas/marineford.jpg);
+background-size: cover;
+}
+.part7{
+background-image: url(../Imgs/sagas/it2.png);
+background-size: cover;
+}
+.part8{
+background-image: url(../Imgs/sagas/dres1.jpg);
+background-size: cover;
+}
+.part9{
+background-image: url(../Imgs/sagas/wc4.jpg);
+background-size: cover;
+}
+.part10{
+background-image: url(../Imgs/sagas/paiswano.jpg);
+background-size: cover;
+}
+
+
+
 
 .styleSobre{
 
             padding: 80px 0  ;
-            background-color: rgba(26, 4, 8, 0.696);
+            background-color: rgba(47, 9, 44, 0.704);
           
         }
         
@@ -236,7 +279,7 @@ background-size: 100%;
         
         .conteudo-sobre{
         
-        font-size: 14px;
+        font-size: 17px;
         color: black;
         width: 100%;
         margin: 20px 20px;
