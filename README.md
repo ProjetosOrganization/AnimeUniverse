@@ -1,9 +1,22 @@
 
-# Site AnimeUniverse.
+# Projeto-Anime Universe
 
-Projeto desenvolvido utiliza do typescript junto ao express para criar a parte de back-end do projeto, e sendo utilizado css e html para parte de front-end.
+Esse projeto foi feito para aprimorar nossas habilidades de programação em desenvolvimento Front End e Back-End.
 
-O projeto é voltado a estudos com base nessas duas linguagens, e alem de desenvolvimento pessoal do devs.
+
+## Tecnologias
+### Front-End
+- HTML - Estrutura do site
+- CSS - Estilização do site
+- JavaScript - Funcionalidades do site
+
+### Back-End
+- TypeScript - API
+- NodeJs - API 
+- MySQL -  Gerenciamento do banco de dados
+
+ <img src="https://user-images.githubusercontent.com/78982351/179135526-9ee4d873-1633-4631-b3d4-2259ca848b73.png" alt="">
+
 ## Instalação
 
 Instale o projeto com npm
