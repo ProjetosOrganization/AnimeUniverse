@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'One Piece Manga';
+    src: url(fonts/one\ piece\ font.ttf);
+}
+
+
+
+
+/*  Page One Piece  */
+
+
+
+.banner-op {
+
+    background-image: url(../imgs/banner-op.jpg);
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+   
+   }
+   
+   
+   .conteudo-banner-op{
+   
+   color: white;
+   font-size: 70px;
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   padding-top: 300px;
+   
+   
+   }
+   
+   .styleDiv{
+   
+      height: 100%;
+      background-color: #00000070;
+   
+   
+   }
+   
+   .conteudo-op{
+   
+   height: 770px;
+   
+   
+   }
+   
+   .conteudo-op h1{
+   
+       display: flex;
+       color: white;
+       justify-content: center;
+       padding-top: 50px;
+       
+   
+   }
+   
+   .conteudo-op p{
+   
+   padding-left: 50px;
+   width: 600px;
+   color: white;
+   text-align: justify;
+   
+   
+   
+   }
+   
+   .banner-op2 {
+   
+       background-image: url(../imgs/conteudo-op.jpg);
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center;
+      
+      
+      
+      }
+      
+      .styleDiv2{
+   
+       background-color: #0000006b;
+   
+   
+   
+   
+      }
+   
+      .conteudo-sobre-op{
+   
+       display: flex;
+       justify-content: space-around;
+       padding-top: 100px;
+   
+   
+      }
+   
+      .gif img{
+   
+   
+       border-radius: 30px ;
+   
+      }
+   
+      .img-home-d img{
+
+        border-radius: 20px;
+        width: 500px;
+        height: 300px;
+      }

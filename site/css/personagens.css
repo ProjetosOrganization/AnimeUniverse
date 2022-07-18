@@ -1,0 +1,92 @@
+/* pagina Personagem*/
+
+body{
+
+  font-family: 'barlow' sans-serif;
+  background-image: url(../imgs/merry.png);
+  background-size: cover;
+ 
+    }
+
+  
+  #personagem{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+     justify-content: center;
+
+  }
+
+.escolha-personagem{
+
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.escolha-personagem p{
+
+padding-bottom: 20px;
+margin-bottom: 5%;
+}
+
+
+
+  
+  /* Card Personagem */
+  
+   .card-imagem {
+    width: 100%;
+    height: 250px;
+   
+  }
+
+  .card-body {
+    height: 120px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    
+  }
+
+  
+  .card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+  }
+
+  
+  .card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+    background-size:cover;
+  }
+
+  .card-personagem {
+    width: 300px;
+    margin: 25px;
+    background: rgba(255, 255, 255, 0.112);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 1.5px );
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    overflow:hidden;
+    transition: 0.3s;
+    color: black;
+    float: left;
+    
+  }
+  
+  
+  /* Animação Hover */
+  .card-personagem:hover {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+  
+ 
+  

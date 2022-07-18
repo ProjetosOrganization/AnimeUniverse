@@ -1,0 +1,99 @@
+
+/*  Page Gurren Lagann  */
+
+.banner-gl {
+
+    background-image: url(/imgs/gl.jpg);
+    background-size: cover;
+    height: 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+   
+   }
+   
+   
+   .conteudo-banner-gl{
+   
+   color: white;
+   font-size: 70px;
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   padding-top: 300px;
+   
+   
+   }
+   
+   .styleDiv{
+   
+      height: 100%;
+      background-color: #00000070;
+   
+   
+   }
+   
+   .conteudo-gl{
+   
+   height: 770px;
+   
+   
+   }
+   
+   .conteudo-gl h1{
+   
+       display: flex;
+       color: white;
+       justify-content: center;
+       padding-top: 50px;
+       
+   
+   }
+   
+   .conteudo-gl p{
+   
+   padding-left: 50px;
+   width: 600px;
+   color: white;
+   text-align: justify;
+   
+   
+   
+   }
+   
+   .banner-gl2 {
+   
+       background-image: url(/imgs/gl2.png);
+       background-size: cover;
+       background-attachment: fixed;
+       background-position: center;
+      
+      
+      
+      }
+      
+      .styleDiv2{
+   
+       background-color: #000000b0;
+   
+   
+   
+   
+      }
+   
+      .conteudo-sobre-gl{
+   
+       display: flex;
+       justify-content: space-around;
+       padding-top: 100px;
+   
+   
+      }
+   
+      .gif img{
+   
+   
+       border-radius: 30px ;
+   
+      }
+   
