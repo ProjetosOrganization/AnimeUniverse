@@ -1,0 +1,243 @@
+
+/* pagina Cadastro*/
+
+.body-cadastro{
+        margin:0;
+        padding: 0;
+        font-family: 'barlow' sans-serif;
+        background-color: #6d1973 ;
+       
+      }
+
+      #myvideo {
+        object-fit: cover;
+        width: 100vw;
+        height: 90vh;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        background-size: cover;
+    }
+
+            
+          .card-cadastro{
+            color: white;
+            font-weight: 700;
+            width: 400px;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            border: 1px solid blueviolet;
+            background: rgba(110, 12, 115, 0.375);
+            border: 1px solid blueviolet;
+            position: fixed;
+
+          }
+
+
+          .card-cadastro h2{
+              
+            padding: 20px;
+          }
+
+          .container-cadastro{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 350px;
+            
+          }
+
+            .titleProta {
+                
+            font-weight: 900;
+            font-size: 14px;
+
+            }
+  
+    
+    
+     .form{
+    
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+        width: 250px;
+        
+        }
+    
+        .form span {
+        
+        font-weight: 700;
+        padding: 3px;
+        }
+        
+        .form input{
+        
+            outline: 1px solid blueviolet;
+            padding:5px;
+            border: 0;
+            border-radius: 10px;
+            padding-left: 28px;
+      
+      
+       }
+
+   
+
+    .form button{
+    
+      margin-top: 20px;
+      background-color: blueviolet;
+      color: #fff;
+      padding: 10px 15px;
+      width: 120px;
+      align-self: center;
+      font-size: 18px;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer;
+      
+      }
+      
+      .btn:hover{
+          background-color: #000000;
+          
+          
+          }
+
+         
+        /* Input icons Cadastro*/
+
+    .name{
+
+      background-image: url(../Imgs/nome-24.png);
+      background-repeat: no-repeat;
+
+    }
+
+    .emails{
+      background-image: url(../Imgs/email-aberto-24.png);
+      background-repeat: no-repeat;
+      
+    }
+
+ 
+
+    .telefone{
+      background-image: url(../Imgs/telefone-sem-uso-24.png);
+      background-repeat: no-repeat;
+      
+
+    }
+
+    .senha{
+
+      background-image: url(../Imgs/cadeado-2-24.png);
+      background-repeat: no-repeat;
+
+    }
+    
+    
+    
+      
+
+    /* Pagina Login */
+
+    
+  .body-login{
+    margin:0;
+    padding: 0;
+    font-family: 'barlow' sans-serif;
+    background-color: #6d1973 ;
+    
+      }
+
+.header-login{
+
+ background-color: black;
+ padding: 20px 0;
+ border-bottom:  1px solid blueviolet;
+           
+        }
+        
+  .container-login{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 350px;
+        
+  
+      }
+
+  .card-login{
+    
+     color: #fff;
+     font-weight: 600;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+     border: 1px solid blueviolet;
+     background: rgba(110, 12, 115, 0.375);
+     backdrop-filter: blur(3.0px);
+    position: fixed;
+      }
+
+      .card-login h2{
+    
+        padding: 20px;
+       }
+
+      h3{
+        
+        margin-left: 25px;
+        font-size: 16px;
+        margin-top: 10px;
+        
+
+      }
+
+      h3 a{
+
+     
+        text-decoration: none;
+        color: black;
+        font-weight: 1000;
+
+
+      }
+
+     .btn a{
+
+
+      text-decoration: none;
+      color: white;
+     }
+
+    
+  
+     .footer{
+
+
+      color: white;
+      background-color: black;
+      border-top: 2px solid blueviolet;
+      margin-top: 150px;
+      
+      }
+      
+      .footer p{
+      
+          display: flex;
+          justify-content: center;
+          padding-top:  15px;
+      
+      }
