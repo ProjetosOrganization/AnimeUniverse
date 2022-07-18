@@ -5,9 +5,13 @@ Esse projeto foi feito para aprimorar nossas habilidades de programação em des
 
 
 ## Tecnologias
+### Front-End
 - HTML - Estrutura do site
 - CSS - Estilização do site
 - JavaScript - Funcionalidades do site
+
+### Back-End
+- TypeScript - API
 - NodeJs - API 
 - MySQL -  Gerenciamento do banco de dados
 
