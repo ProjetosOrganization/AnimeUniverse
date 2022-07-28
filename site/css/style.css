@@ -38,6 +38,15 @@ html{
      
 }
 
+.headerGL{
+
+    background: linear-gradient(180deg, #110112 0%, rgba(217, 18, 47, 0.9) 100%);
+    padding: 20px 0px;
+    color: white;
+    font-size: 18px;
+     
+}
+
 
 .center{
 
@@ -83,14 +92,16 @@ padding: 7px;
 }
 
 .btn{
-
+   
 border-radius: 7px;
 font-size: 15px;
 padding: 5px;
 border: black;
 margin-left: 10px;
 
+
 }
+
 
 .btn-CL{
     border-radius: 5px;
@@ -102,6 +113,22 @@ margin-left: 10px;
 
     color: white;
     background-color: blueviolet;
+    transition: 0.2s;
+    
+
+}
+.btn-CL-GL{
+    
+    border-radius: 5px;
+    padding: 1px;
+   
+  
+}
+
+.btn-CL-GL:hover{
+
+    color: white;
+    background-color: black;
     transition: 0.2s;
     
 
@@ -132,7 +159,7 @@ margin-left: 10px;
 
 background-image: url(../imgs/ANIMU.jpg);
  background-size: cover;
- height: 700px;
+ height: 657px;
  background-attachment: fixed;
  background-repeat: no-repeat;
 
@@ -151,15 +178,32 @@ background-image: url(../imgs/ANIMU.jpg);
 
    .footer{
 
-    height: 40px;
+    height: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(180deg, #6d1973 0%, rgba(126, 68, 131, 0.9) 100%);
 
    }
+   
+   .footerGL{
+
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #070107 0%, rgba(247, 15, 15, 0.9) 100%);
+
+   }
 
    .footer p {
+
+    color: white;
+    font-size: 20px;
+
+
+   }
+   .footerGL p {
 
     color: white;
     font-size: 20px;
@@ -176,8 +220,18 @@ background-image: url(../imgs/ANIMU.jpg);
 
   }
 
-.imgHistory{
+.imgHistoryOP{
     background-image: url(../Imgs/TOBE.webp);
+    padding: 350px 0  ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+.imgHistoryGL{
+    background-image: url(../Imgs/gl.jpg);
     padding: 350px 0  ;
     background-position: center;
     background-repeat: no-repeat;
@@ -299,3 +353,4 @@ background-size: cover;
         
         }
         
+      

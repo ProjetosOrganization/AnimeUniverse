@@ -3,7 +3,7 @@
 
 .banner-gl {
 
-    background-image: url(/imgs/gl.jpg);
+    background-image: url(../imgs/gl.jpg);
     background-size: cover;
     height: 800px;
     background-attachment: fixed;
@@ -63,7 +63,7 @@
    
    .banner-gl2 {
    
-       background-image: url(/imgs/gl2.png);
+       background-image: url(../imgs/gl5.jpg);
        background-size: cover;
        background-attachment: fixed;
        background-position: center;
@@ -96,4 +96,25 @@
        border-radius: 30px ;
    
       }
+
+      .img-home-d img{
+
+        border-radius: 20px;
+        width: 500px;
+        height: 300px;
+      }
    
+       .part1GL{
+        background-image: url(../imgs/sagas/gl1.jpg);
+        background-size: cover;
+        }
+        
+        .part2GL{
+        background-image: url(../Imgs/gl5.jpg);
+        background-size: cover;
+        }
+        
+        .part3GL{
+        background-image: url(../Imgs/gl6.jpg);
+        background-size: cover;
+        }

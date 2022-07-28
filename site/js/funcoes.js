@@ -1,4 +1,7 @@
-function mostrarPersonagem() {
+
+// One Piece
+
+function mostrarPersonagemOP() {
  
     
     var qtdPersonagem = 8;
@@ -53,4 +56,82 @@ function mostrarPersonagem() {
     
 
 
+// Gurren Lagann
 
+function mostrarPersonagemGL() {
+ 
+    
+    var qtdPersonagem = 8;
+    var personagem =  document.querySelector("#personagem") ;
+    var nome = { "personagem" : [ 
+        "Simon", 
+        "Kamina",
+        "Yoko",
+        "Nia",
+        "Viral",
+        "Adiane",
+        "Kittan",
+        "Anti-Espiral",
+       
+        
+       
+       ]};
+    
+     
+    
+    var  imagem = { "personagem": [ "../Imgs/personagem/simon.png",
+        "../Imgs/personagem/kamina.jpg",
+        "../Imgs/personagem/yoko.jpg",
+        "../Imgs/personagem/nia.png",
+        "../Imgs/personagem/viral.jpg",
+        "../Imgs/personagem/adiane.png",
+        "../Imgs/personagem/kittan.jpg",
+        "../Imgs/personagem/anti.jpg",
+      
+        
+      
+    ]} ;
+      
+        
+    for (var  cont = 0; cont < qtdPersonagem; cont++) {
+        personagem.innerHTML += `
+       <div class="card-personagem">
+            <div class="card-imagem" >
+                <img src='${imagem.personagem[cont]}' class="card-img"/>
+            </div>
+           <div class="card-body">
+            <h2 class="card-titulo">${nome.personagem[cont]}</h2>
+         </div>
+         
+          </div>`
+    
+    } 
+    
+    }
+
+
+    // Escolher Anime
+
+    function changeAnime() {
+   
+        var escolhaAnime = anime.value
+    
+        if(escolhaAnime == "op"){
+            window.location.href = "./onePiece/homeOP.html";
+    
+        }else if(escolhaAnime == "gl"){
+    
+            window.location.href = "./gurrenLagann/homeGL.html";
+    
+    
+        }
+    
+    
+    
+       
+       
+     
+     
+       }
+    
+      

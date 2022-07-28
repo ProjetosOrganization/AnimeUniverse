@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurren Lagann | Cadastro</title>
+   <link rel="shortcut icon" href="../imgs/gl.ico" type="image/x-icon">
+  <script src="JS/funcoes.js"></script>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/style-gl.css">
+    <link rel="stylesheet" href="../css/login_cadastro.css">
+</head>
+
+<body class="body-cadastro">
+    <video autoplay muted loop id="myvideo">
+        <source src="../imgs/fundo_cadastroGL.mp4" type="video/mp4">
+    </video>
+   
+    <div class="headerGL">
+
+        <div class="center" >
+        <div class="title"> <p>Gurren Lagann</p></div>
+    
+       <div class="menu" >
+    
+    <a class="btn-CL-GL" href="../index.html"> Anime Universe </a>
+    <a class="btn-CL-GL" href="../gurrenLagann/homeGL.html">Home</a>
+    <a class="btn-CL-GL" href="../gurrenLagann/historiaGL.html">História</a>
+    <a class="btn-CL-GL" href="../gurrenLagann/personagemGL.html">Personagens</a>
+    <a class="btn-CL-GL" href="../gurrenLagann/cadastroGL.html"> Cadastro | Login</a>
+    
+        
+        </div>
+    </div>
+    
+    </div>
+   
+
+    <div class=" container-cadastro"> 
+
+        <div class="alerta_erro">
+            <div class="card_erro" id="cardErro">
+                <span id="mensagem_erro"></span>
+            </div>
+        </div>
+
+           <div class="card-cadastroGL"><h2>Cadastre-se agora!</h2>
+                <div class="form">
+                    <span > Nome:</span>
+                    <input class="name" id="nome_input" type="text" >
+
+                    <span >E-mail:</span>
+                    <input class="emails" id="email_input" type="email" >
+
+                    <span >Telefone:</span>
+                    <input class="telefone" id="telefone_input" type="tel" >
+
+                    <span >Senha:</span>
+                    <input class="senha" id="senha_input" type="password" >
+
+                   
+                    <button class="btn" onclick="cadastrar()">Cadastrar</button>
+                    <h3>Já possui conta? <a class="btn-CL-GL" href="../gurrenLagann/loginGL.html"> Entre agora</a></h3>
+
+                    
+
+                 </div>
+            </div>
+
+            </div>
+
+            <div id="div_aguardar">
+            
+            </div>
+
+            <div id="div_erros_login">
+                </div>

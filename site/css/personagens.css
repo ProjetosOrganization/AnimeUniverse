@@ -8,6 +8,12 @@ body{
  
     }
 
+    .GL {
+      background-image: url(../imgs/gl6.jpg);
+      background-size: cover;
+     
+
+    }
   
   #personagem{
     width: 100%;

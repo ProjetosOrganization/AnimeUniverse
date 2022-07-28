@@ -11,8 +11,8 @@
 
       #myvideo {
         object-fit: cover;
-        width: 100vw;
-        height: 90vh;
+        width: 103vw;
+        height: 100vh;
         position: fixed;
         top: 70px;
         left: 0;
@@ -33,6 +33,23 @@
             border: 1px solid blueviolet;
             background: rgba(110, 12, 115, 0.375);
             border: 1px solid blueviolet;
+            position: fixed;
+
+          }
+
+          .card-cadastroGL{
+            color: white;
+            font-weight: 700;
+            width: 400px;
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            border: 1px solid rgb(137, 6, 6);
+            background: rgba(223, 19, 19, 0.464);
+            backdrop-filter: blur(3.0px);
             position: fixed;
 
           }
@@ -103,6 +120,8 @@
       
       }
       
+    
+
       .btn:hover{
           background-color: #000000;
           
@@ -156,6 +175,15 @@
     
       }
 
+      .body-loginGL{
+        margin:0;
+        padding: 0;
+        font-family: 'barlow' sans-serif;
+        background-image: url(../imgs/gl6.jpg) ;
+        background-size: cover;
+        
+          }
+
 .header-login{
 
  background-color: black;
@@ -187,6 +215,23 @@ margin-top: 350px;
     border-radius: 10px;
      border: 1px solid blueviolet;
      background: rgba(110, 12, 115, 0.375);
+     backdrop-filter: blur(3.0px);
+    position: fixed;
+      }
+      
+  .card-loginGL{
+    
+     color: #fff;
+     font-weight: 600;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+     border: 1px solid rgb(137, 6, 6);
+     background: rgba(223, 19, 19, 0.464);
      backdrop-filter: blur(3.0px);
     position: fixed;
       }
@@ -224,16 +269,9 @@ margin-top: 350px;
 
     
   
-     .footer{
-
-
-      color: white;
-      background-color: black;
-      border-top: 2px solid blueviolet;
-      margin-top: 150px;
-      
-      }
-      
+     
+   
+     
       .footer p{
       
           display: flex;
